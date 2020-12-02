@@ -2614,12 +2614,11 @@ public class Vista extends javax.swing.JFrame {
 
         } catch (IndexOutOfBoundsException ie) {
             JOptionPane.showMessageDialog(Facturas, "SIN STOCK");
-        }
-        /*catch (NullPointerException ne) {
+        } catch (NullPointerException ne) {
             JOptionPane.showMessageDialog(Facturas, "Numero de factura no existe");
         } catch (Exception e) {
             JOptionPane.showMessageDialog(Facturas, "Numero de factura no valida, o algun campo vacio");
-        }*/
+        }
 
     }
 
